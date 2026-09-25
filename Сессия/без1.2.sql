@@ -1,0 +1,4 @@
+CREATE LOGIN Ирина WITH PASSWORD = 'Irina123!';
+GO
+ALTER SERVER ROLE dbcreator ADD MEMBER Ирина;
+GO
